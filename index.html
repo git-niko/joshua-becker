@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--  
+    Content for: Joshua Becker - GIT417 Final Project
+    Author: Nicole Peterson
+    Last revised: 9/13/22  
+    
+    This website was created to practice skills 
+    learned during academic instruction.
+-->
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Best-Selling Author | Joshua Becker</title>
+        <meta name="description" content="Joshua Becker is a Wall Street Journal best-selling author of The More of Less and The Minimalist Home. His new book, Things That Matter, was published in April 2022." />
+        <meta name="keywords" content="Joshua Becker, best-selling, author, writer, philanthropist, Wall Street Journal, best-selling, books, The More of Less, The Minimalist Home, Things That Matter" />
+        <meta name="author" content="Nicole Peterson" />
+        <meta name="application-name" content="Joshua Becker" />
+        <meta name="robots" content="follow, index" />
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+        <![endif]-->
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Books by best-selling author, Joshua Becker" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.public.asu.edu/~npeter21/git417/joshua-becker" />
+        <meta property="og:image" content="https://www.public.asu.edu/~npeter21/git417/joshua-becker/images/og-joshua-becker-books.jpg" />
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@joshua_becker" />
+        <meta name="twitter:creator" content="@joshua_becker" />
+        <meta name="twitter:title" content="Books by best-selling Author, Joshua Becker" />
+        <meta name="twitter:description" content="Own less, live more, and create space for the things you love." />
+        <meta name="twitter:image" content="https://www.public.asu.edu/~npeter21/git417/joshua-becker/images/og-joshua-becker-books.jpg" />
+        <!-- Fonts: Lora & Ubuntu -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@500&display=swap" as="style" />
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@500&display=swap" rel="stylesheet" />
+        <!-- CSS Stylesheet -->
+        <link media="screen" rel="stylesheet" href="styles.css" />
+        <!-- JavaScript -->
+        <script defer src="main.js"></script>
+    </head>
+
+    <body>
+        <a id="skip" href="#mainContent">Skip to Main Content</a>
+        <!-- Header -->
+        <header>
+            <!-- Navigation -->
+            <nav>
+                <h2 class="sr-only">Main Navigation</h2>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Light/Dark mode button -->
+            <button id="colorModeBtn" aria-label="Toggle light and dark mode">
+                <img id="dark" aria-hidden="true" src="./images/dark-mode.svg" width="60" height="60" alt="#" />
+                <img id="light" class="hidden" aria-hidden="true" src="./images/light-mode.svg" width="60" height="60" alt="#" />
+            </button>
+            <h1>Joshua Becker</h1>
+        </header>
+        <!-- Main Content -->
+        <main id="mainContent">
+            <!-- Section: About -->
+            <section id="about">
+                <h2>About</h2>
+                <img src="./images/joshua-becker-author-600x840.jpg" width="400" height="560" alt="Joshua Becker with short salt and pepper hair wearing a black t-shirt" />
+                <p>
+                    My story begins in suburban Vermont while I was cleaning the garage, my wife was cleaning the bathrooms and my 5&ndash;year old son was playing alone in the backyard. I struck up a regular conversation with my neighbor who
+                    commented, “Maybe you don't need to own all this stuff.”
+                </p>
+
+                <p>
+                    The juxtaposition was striking. My possessions piled up in the driveway… my son in the backyard… my day slipping away… I immediately recognized something needed to change. My belongings were not adding value to my life. Instead,
+                    they were subtracting from it.
+                </p>
+
+                <p>My family and I began donating, recycling, and removing our unnecessary personal possessions. We embarked on an intentional journey to own less stuff.</p>
+
+                <p>As a result, we discovered more money, more time, more energy, more freedom, less stress, and more opportunity to pursue our greatest passions&colon; faith, family, friends. And we decided to write about it.</p>
+
+                <p>
+                    Becoming Minimalist quickly became a place to encourage others to embrace minimalism. It does not boldly require anyone to become minimalist overnight &mdash; nor does it specifically define the word for you. Instead, it
+                    encourages each reader to discover their own journey and the far&ndash;reaching benefits that come from owning less.
+                </p>
+            </section>
+            <!-- Section: Books -->
+            <section id="books">
+                <h2>Books</h2>
+                <ul>
+                    <li id="book1" class="grid">
+                        <img src="./images/things-that-matter-720x1080.jpg" width="300" height="450" alt="The Things That Matter book cover has the title in cracked gold against an off-white background." />
+                        <h3>Things That Matter</h3>
+                        <div>
+                            <p>
+                                Do you want to live a meaningful life &mdash; with very few regrets &mdash; and make a positive difference in the world? But is culture distracting you from doing so? Perhaps moments, days, and years go by without you
+                                stopping to ask yourself, Am I living out my true purpose? Even if that question whispers to you, are you brushing it aside because you don't know what to change in life's busyness?
+                            </p>
+
+                            <p>
+                                <cite>Things That Matter</cite> is a book about living well. It's about overcoming the chatter of a world focused on all the wrong things. It's about rethinking the common assumptions of today to find satisfaction and
+                                fulfillment tomorrow.
+                            </p>
+                        </div>
+                    </li>
+                    <li id="book2" class="hidden">
+                        <img src="./images/the-minimalist-home-720x1080.jpg" width="300" height="450" alt="The Minimalist Home book cover has the title in blue lettering against an image of blue building blocks in the shape of a home." />
+                        <h3>The Minimalist Home</h3>
+                        <div>
+                            <p>
+                                <cite>The Minimalist Home</cite> takes us on a decluttering tour of every room in our houses and apartments, showing how to decide what to get rid of and what to keep. Joshua offers practical guidelines for simplifying
+                                our lifestyle at home and addresses underlying issues that contribute to over&ndash;accumulation in the first place.
+                            </p>
+
+                            <p>The purpose is not just to create a more inviting living space. It's also to turn our life's HQ &mdash; our home &mdash; into a launching pad for a more fulfilling and productive life in the world.</p>
+                        </div>
+                    </li>
+                    <li id="book3" class="hidden">
+                        <img src="./images/the-more-of-less-720x1080.jpg" width="300" height="450" alt="The More of Less book cover has the title in white and beige against a light blue background with an opened and empty suitcase." />
+                        <h3>The More of Less</h3>
+                        <div>
+                            <p>We own too much stuff. We feel the weight and burden of our clutter every day. It redirects our greatest passions to things that can never fulfill. And it distracts us from the very life we wish we were living.</p>
+
+                            <p>In <cite>The More of Less</cite>, Joshua helps you recognize the life&ndash;giving benefits of owning less and craft a personal, practical approach to decluttering your home and life.</p>
+                            <figure>
+                                <blockquote cite="https://www.publishersweekly.com/978-1-60142-796-0">
+                                    <p>With action plans, lists, and appeals to the reader's quiet nature, Becker successfully presents a well&ndash;rounded argument that a journey toward minimalism is possible and even enjoyable.</p>
+                                </blockquote>
+                                <figcaption>&ndash;<cite> Publisher's Weekly</cite></figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                </ul>
+                <div>
+                    <button id="btn1" aria-label="View Things That Matter book information">Things That Matter</button>
+                    <button id="btn2" aria-label="View The Minimalist Home book information">The Minimalist Home</button>
+                    <button id="btn3" aria-label="View The More of Less book information">The More of Less</button>
+                </div>
+            </section>
+            <!-- Section: Contact -->
+            <section id="contact">
+                <h2>Contact</h2>
+                <form id="contactForm" method="post">
+                    <div>
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" name="fullName" id="fullName" autocomplete="name" />
+                        <span class="errorMsg visibilityHidden"></span>
+                    </div>
+                    <fieldset>
+                        <legend>Preferred Contact Method:</legend>
+
+                        <input type="radio" name="contactPref" id="prefEmail" checked />
+                        <label for="prefEmail">Email Address</label>
+
+                        <input type="radio" name="contactPref" id="prefPhone" />
+                        <label for="prefPhone">Phone Number</label>
+                    </fieldset>
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="email" id="email" autocomplete="email" />
+                        <span class="errorMsg visibilityHidden"></span>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="phone" id="phone" autocomplete="tel" />
+                        <span class="errorMsg visibilityHidden"></span>
+                    </div>
+
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                        <span class="errorMsg visibilityHidden"></span>
+                    </div>
+                    <input type="submit" id="formSubmit" />
+                </form>
+                <section id="formConfirmation" class="visibilityHidden">
+                    <h3 class="sr-only">Contact Form Confirmation</h3>
+                    <p id="formInfo"></p>
+                </section>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <section id="socialMedia">
+                <h2 class="sr-only">Social Media</h2>
+                <a href="https://www.facebook.com/becomingminimalist" target="_blank" rel="”noopener”" aria-label="View Joshua Becker's Facebook page">
+                    <svg
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-brand-facebook"
+                        width="50"
+                        height="50"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#1C232D"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                </a>
+                <a href="https://twitter.com/joshua_becker" target="_blank" rel="”noopener”" aria-label="View Joshua Becker's Twitter page">
+                    <svg
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-brand-twitter"
+                        width="50"
+                        height="50"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#1C232D"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"
+                        />
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/channel/UCBMKymQczkDxCpE1R2vvA4Q" target="_blank" rel="”noopener”" aria-label="View Joshua Becker's YouTube channel">
+                    <svg
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-brand-youtube"
+                        width="50"
+                        height="50"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#1C232D"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="3" y="5" width="18" height="14" rx="4" />
+                        <path d="M10 9l5 3l-5 3z" />
+                    </svg>
+                </a>
+            </section>
+            <p><small>Copyright &copy; 2022, Joshua Becker. All Rights Reserved.</small></p>
+        </footer>
+    </body>
+</html>
