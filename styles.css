@@ -6,7 +6,7 @@
 /* 
     Content for: Joshua Becker - GIT417 Final Project
     Author: Nicole Peterson
-    Last revised: 9/13/22  
+    Last revised: 9/16/22  
     
     This website was created to practice skills 
     learned during academic instruction. 
@@ -182,7 +182,7 @@ cite {
 header {
     display: grid;
     grid-template-columns: 4fr 0.5fr;
-    grid-template-rows: 0.5fr 4fr;
+    grid-template-rows: 0.5fr 2.5fr 1fr;
     background-image: var(--header-background-img);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -217,14 +217,19 @@ nav a {
 }
 h1 {
     grid-column: 1 / -1;
-    margin-top: 0.3em;
+    margin-top: .16em;
     font-family: 'hendrickson';
     font-weight: normal;
     font-size: 16rem;
     line-height: 1;
     color: var(--h1-color);
 }
-
+h1 + p {
+    grid-column: 1 / -1;
+    justify-self: center;
+    font-size: 1.3rem;
+    word-spacing: 0.5em;
+}
 /* Section: About
 ======================================================
 */
