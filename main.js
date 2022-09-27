@@ -2,8 +2,7 @@
 
 /* 
     Content for: Joshua Becker - GIT417 Final Project
-    Author: Nicole Peterson
-    Last revised: 9/13/22  
+    Author: Nicole Peterson 
     
     This website was created to practice skills 
     learned during academic instruction. 
@@ -172,8 +171,8 @@ function formValidation(e) {
     });
 
     // Hide the formConfirmation that displays user info after submission
-    document.getElementById("formConfirmation").classList.remove("visibilityShow");
-    document.getElementById("formConfirmation").classList.add("visibilityHidden");
+    formConfirmation.classList.remove("visibilityShow");
+    formConfirmation.classList.add("visibilityHidden");
 
 
     // Check if full name input blank
@@ -244,38 +243,10 @@ function formValidation(e) {
 }
 
 function displaySubmission() {
-    /*
-        //=========================================================
-        // Get the modal
-        let modal = document.getElementById("myModal");
-    
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-    
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-    
-        // When the user clicks on the button, open the modal
-        btn.onclick = function () {
-            modal.style.display = "block";
-        }
-    
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-    
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-        //=========================================================
-        */
+
     // Display the confirmation info
-    document.getElementById("formConfirmation").classList.remove("visibilityHidden");
-    document.getElementById("formConfirmation").classList.add("visibilityShow");
+    formConfirmation.classList.remove("visibilityHidden");
+    formConfirmation.classList.add("visibilityShow");
 
     // Clear previous info
     formInfo.innerHTML = "";
@@ -286,11 +257,24 @@ function displaySubmission() {
 
 
 // ---------------------------------------
+// ------- Current Copyright Year --------
+// ---------------------------------------
+
+// Updates the copyright year located in the footer
+// Create a new Date object
+const today = new Date();
+
+// Grab current year and display
+const year = today.getFullYear();
+copyrightYear.innerHTML = year;
+
+
+// ---------------------------------------
 // ---------- Event Listeners ------------
 // ---------------------------------------
 
-document.getElementById("colorModeBtn").addEventListener("click", changeMode);
-document.getElementById("btn1").addEventListener("click", productOne);
-document.getElementById("btn2").addEventListener("click", productTwo);
-document.getElementById("btn3").addEventListener("click", productThree);
-document.getElementById("contactForm").addEventListener("submit", formValidation);
+colorModeBtn.addEventListener("click", changeMode);
+btn1.addEventListener("click", productOne);
+btn2.addEventListener("click", productTwo);
+btn3.addEventListener("click", productThree);
+contactForm.addEventListener("submit", formValidation);
