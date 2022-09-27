@@ -266,7 +266,7 @@ const today = new Date();
 
 // Grab current year and display
 const year = today.getFullYear();
-copyrightYear.innerHTML = year;
+document.getElementById("copyrightYear").innerHTML = year;
 
 
 // ---------------------------------------
